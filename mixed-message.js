@@ -10,7 +10,7 @@ const comp4 = ['married','famous','rich'];
 const randomizeComponent = arr => arr[Math.floor(Math.random() * arr.length)];
 
 // Declaring a function to generate the message
-const generateMessage = (len=4) => {
+const generateMessage = () => {
 let sentence = [];
 sentence.push(randomizeComponent(comp1));
 sentence.push(randomizeComponent(comp2));
